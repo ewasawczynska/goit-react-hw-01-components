@@ -2,6 +2,7 @@ import user from '../data/user';
 import data from '../data/data';
 import { Profile } from 'components';
 import { Statistics } from 'components';
+import { StatisticsItem } from 'components';
 
 const appStyle = {
   display: 'flex',
