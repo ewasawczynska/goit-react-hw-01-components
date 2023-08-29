@@ -1,5 +1,7 @@
 import user from '../data/user';
+import data from '../data/data';
 import { Profile } from 'components';
+import { Statistics } from 'components';
 
 const appStyle = {
   display: 'flex',
@@ -18,6 +20,8 @@ export const App = () => {
         avatar={user.avatar}
         stats={user.stats}
       />
+      <Statistics title="Upload stats" stats={data} />
+      <Statistics stats={data} />
     </div>
   );
 };
