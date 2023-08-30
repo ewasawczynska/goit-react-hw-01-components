@@ -1,0 +1,30 @@
+.table {
+  width: 600px;
+  border-radius: 2%;
+  box-shadow: 0px 3px 27px 4px rgba(66, 68, 90, 1);
+  text-align: center;
+  border-collapse: collapse;
+  overflow: hidden;
+}
+
+.head {
+  height: 40px;
+  text-transform: uppercase;
+  background-color: lightblue;
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.row {
+  height: 40px;
+  color: grey;
+}
+
+.row:nth-child(2n) {
+  background-color: rgb(234, 234, 234);
+}
+
+.type {
+  text-transform: capitalize;
+}
