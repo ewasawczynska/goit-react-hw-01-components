@@ -6,6 +6,7 @@ import { Statistics } from 'components';
 
 const appStyle = {
   display: 'flex',
+  gap: '40px',
   flexDirection: 'column',
   alignItems: 'center',
   paddingTop: '20px',
