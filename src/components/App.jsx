@@ -1,8 +1,10 @@
 import user from '../data/user';
 import data from '../data/data';
+import friends from '../data/friends';
 
 import { Profile } from 'components';
 import { Statistics } from 'components';
+import { FriendList } from 'components';
 
 const appStyle = {
   display: 'flex',
@@ -10,6 +12,7 @@ const appStyle = {
   flexDirection: 'column',
   alignItems: 'center',
   paddingTop: '20px',
+  paddingBottom: '20px',
 };
 
 export const App = () => {
@@ -23,6 +26,7 @@ export const App = () => {
         stats={user.stats}
       />
       <Statistics title="Upload stats" stats={data} />
+      <FriendList friends={friends} />
     </div>
   );
 };
